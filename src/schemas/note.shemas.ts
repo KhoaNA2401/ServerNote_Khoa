@@ -13,7 +13,7 @@ export class Note {
   description: string;
 
   @Prop()
-  createAt: number;
+  createAt: string;
 }
 export const NoteSchema = SchemaFactory.createForClass(Note);
 export type NoteDocument = Note & Document;
